@@ -1,0 +1,51 @@
+.outerCont{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.topContainer{
+    height: 40px;
+    border-bottom: 1px solid #bebebe;
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.backIcon{
+    cursor: pointer;
+    margin-left: .5rem;
+}
+.title{
+    width: 100%;
+    text-align: center  ;
+    text-transform: capitalize;
+}
+
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-bottom: 1px solid #bebebe;  
+}
+
+.label{
+    color: #bebebe;
+    margin-bottom: .5rem;
+}
+
+.textArea{
+    height: 100px;
+    border-radius: 5px;
+    padding: .5rem;
+}
+
+.saveButton{
+    border: 1px solid #3a4bcd;
+    color: #fff;
+    padding: .25rem .5rem;
+    background-color: #3a4bcd;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
