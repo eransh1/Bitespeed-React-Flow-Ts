@@ -106,6 +106,10 @@ const FlowLayout = () => {
         setSelectedNodes(node)
     };
 
+    // On node delete
+    const onNodesDelete = () => {
+        setSelectedNodes(null)
+    }
 
     //DND
     const onDragOver = useCallback((event : DragEvent) => {
@@ -161,6 +165,7 @@ const FlowLayout = () => {
                     fitViewOptions={{ minZoom: 0.7, maxZoom: 1 }}
                     onDrop={onDrop}
                     onNodeClick={onNodeClick}
+                    onNodesDelete ={onNodesDelete}
                     onDragOver={onDragOver}
                 >
                     <Controls />
